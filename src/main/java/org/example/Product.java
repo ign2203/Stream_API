@@ -23,4 +23,11 @@ public class Product {
     public BigDecimal getPrice() {
         return price;
     }
+    public Product (Long id, String name, String category, BigDecimal price) {
+        this.id = id;
+        this.name = name;
+        this.category = category;
+        this.price = price;
+
+    }
 }

@@ -17,7 +17,8 @@ public class Customer {
         return name;
     }
 
-    private final String level;
+    private final String level;// статус клиента 1 — обычный клиент,2 — серебряный,3 — золотой,4 — платиновы
+
 
     public String getLevel() {
         return level;
@@ -27,5 +28,11 @@ public class Customer {
 
     public Set<Order> getOrders() {
         return orders;
+    }
+    public Customer (Long id, String name, String level, Set<Order> orders) {
+        this.id = id;
+        this.name = name;
+        this.level = level;
+        this.orders = orders;
     }
 }
