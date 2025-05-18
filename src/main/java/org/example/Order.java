@@ -47,4 +47,12 @@ CANCELLED   // отменён
         this.status = status;
         this.products = products;
     }
+    @Override
+    public String toString() {
+        return "Заказ |" +
+                "id-" + id +
+                ", Дата заказа -'" + orderDate + '\'' +
+                ", Дата поставки-'" + deliveryDate + '\'' +
+                ", Статус-'" + status + "|";
+    }
 }

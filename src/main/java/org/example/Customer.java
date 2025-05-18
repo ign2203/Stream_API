@@ -17,8 +17,8 @@ public class Customer {
         return name;
     }
 
-    private final String level;// статус клиента 1 — обычный клиент,2 — серебряный,3 — золотой,4 — платиновы
-
+    private final String level;// статус клиента 1 — обычный клиент,2 — серебряный,3 — золотой,4 — платиновый
+//1 — regular customer,2 — silver,3 — gold,4 — platinum
 
     public String getLevel() {
         return level;
