@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Set;
 
-//Покупатель
+
 
 public class Customer {
     private final Long id;
@@ -17,8 +17,7 @@ public class Customer {
         return name;
     }
 
-    private final String level;// статус клиента 1 — обычный клиент,2 — серебряный,3 — золотой,4 — платиновый
-//1 — regular customer,2 — silver,3 — gold,4 — platinum
+    private final String level;
 
     public String getLevel() {
         return level;

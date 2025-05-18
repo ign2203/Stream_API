@@ -2,7 +2,7 @@ package org.example;
 
 import java.math.BigDecimal;
 
-public class Product {// продукты
+public class Product {
     private final Long id;
 
     public Long getId() {

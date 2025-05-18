@@ -24,12 +24,7 @@ public class Order {
     }
 
     private final String status;
-/*
-CREATED     // только создан
-SHIPPED     // передан в доставку
-DELIVERED   // доставлен клиенту
-CANCELLED   // отменён
- */
+
     public String getStatus() {
         return status;
     }
